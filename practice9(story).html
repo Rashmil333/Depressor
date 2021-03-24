@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practice9.html</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="depressorestyling.css">
+</head>
+<body style="background-image:url('sun.png')">
+
+	<nav class="navbar navbar-expand-xl bg-dark">
+		<div class="container">
+			<img src="Capture5.png" style="width:50px;height: 20px;">
+			<a href="#" class="navbar-brand text-white" style="margin-left:10px;" ><b><h3>DEPRESSOR</b></h3></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarid" style="background-color:white;"><span class="navbar-toggler-icon"><i class="fa fa-align-justify" style="margin-top:7px;"></i></span></button>
+			<div class="collapse navbar-collapse" id="navbarid">
+				<ul class="navbar-nav text-center ml-auto">
+					<li class="navbar-items"><a href="index.html" class="nav-link text-white btn btn-success"><b>PROFILE</b></a></li>
+					<li class="navbar-items"><a href="practice9(chat).html" class="nav-link text-white btn btn-success" style="margin-left:6px"><b>CHAT</b></a></li>
+					<li class="navbar-items"><a href="practice9(selfhealing).html" class="nav-link text-white btn btn-success" style="margin-left:6px"><b>SELF-HEALING</b></a></li>
+					<li class="navbar-items"><a href="practice9(reliever).html" class="nav-link text-white btn btn-success" style="margin-left:6px"><b>RELIEVER</b></a></li>
+					<li class="navbar-items"><a href="practice9(contribution).html" class="nav-link text-white btn btn-success" style="margin-left:6px"><b>CONTRIBUTION</b></a></li>
+					<li class="navbar-items"><a href="practice9(story).html" class="nav-link text-white btn btn-danger" style="margin-left:6px"><b>STORY</b></a></li>
+					<li class="navbar-items" style="margin-left: 20px;margin-right:-50px; margin-right: 10px;">
+						<div class="btn-group dropdown">
+							<button class=" btn text-white dropdown-toggle" data-toggle="dropdown" style="margin-left:6px;background-color: #e96868;"><b><i class="fa fa-bell"></i></b></button>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Ramesh:Are you ok??.<br><p style="font-size:10px;">3 seconds ago</p></a>
+							<a href="#" class="dropdown-item">Suresh:Dont give up buddy??<br><p style="font-size:10px;">5 minutes ago</a>
+								
+							</div>
+							
+						</div>
+					</li>
+						<li class="navbar-items" style="">
+						<div class="btn-group dropright">
+							<button class=" btn text-white dropdown-toggle" data-toggle="dropdown" style="background-color: #e96868;"><b><i class="fa fa-user"></i></b></button>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item disabled" style="color:black;">Ramesh333</a>
+								<a href="#" class="dropdown-item"><i class="fa fa-camera"></i>&nbspProfile</a>
+								<a href="#" class="dropdown-item"><i class="fa fa-th"></i>&nbspGallery</a>
+								<a href="#" class="dropdown-item"><i class="fa fa-cog"></i>&nbspSettings</a>
+								<a href="#" class="dropdown-item"><i class="fa fa-power-off"></i>&nbspLogout</a>
+							
+							</div>
+							
+						</div>
+					</li>
+
+					
+				</ul>
+				
+			</div>
+		</div>
+
+		
+	</nav>
+	<div class="container">
+		<p class="col-xl-12 col-lg-12" style="background-color:#EDE9DA;padding:10px; " id="duplicater">Ramesh:First of all I wants to thank the depressor community to help me.Before joining them i was so depressed and stressed but now i'm very happy and enthusiastic.<br>Depressor community provides me the emotional support which make me feel like a family.Consulting with doctors is not so personal experience as this family.Thanks!!!jj..........&#9742; 9878965432 &#9993;  rameshsingh@gmail.com</b> 
+    </p>
+		
+	</div>
+	
+	
+	<nav class="navbar navbar-expand-xl " style="width:100%;position: fixed; bottom:0;background:transparent;">
+		<div class="container">
+			
+			<input type="text" id="textbox" style="width:60%" >
+			<button id="button" onclick="duplicate()" class="btn btn-warning"><i class="fa fa-check"></i></button>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbaridtools" style="background-color:darkblue;" id="button2" onclick="duplicatecontact()" value="&#9742; 8601279470 &#9993;  rashmilrajpoot333@gmail.com"><span class="navbar-toggler-icon"><i class="fa fa-book" style="margin-top:7px; color: white;"></i></span></button>
+			<div class="collapse navbar-collapse" id="">
+				<ul class="navbar-nav text-center ml-auto">
+					
+					<li class="navbar-items"><a  class="nav-link text-white "  style="margin-left:6px">
+						<div class="btn-group dropup">
+			                       <button class="btn" style="margin-left:10px; background-color:darkblue;color:white; border:0px;"id="button2"  value="&#9742; 8601279470 &#9993;  rashmilrajpoot333@gmail.com" onclick="duplicatecontact()">Submit with contact no</button>
+			                      
+			               </div>
+					</a></li>
+				
+					
+				</ul>
+				
+			</div>
+		</div>
+
+		
+	</nav>
+	
+		
+	</div>
+	<script type="text/javascript">
+			
+			
+		document.getElementById('button').onclick = duplicate;
+
+
+        var i = 0;
+        var original = document.getElementById('duplicater');
+
+
+		function duplicate(){
+			var data=document.getElementById('textbox').value;
+			if(data==""){
+				alert("Please enter your story!!!");
+			}
+			else{
+				  var clone = original.cloneNode(true); // "deep" clone
+            clone.id = "duplicetor" + ++i;
+            clone.innerHTML=data;
+            // there can only be one element with an ID
+           original.parentNode.appendChild(clone);
+
+			}
+		
+			
+
+			
+          
+
+
+		}
+			function duplicatecontact(){
+			var data=document.getElementById('textbox').value;
+			if(data==""){
+				alert("Please enter your story!!!");
+
+			}
+			else{
+					var contactdata=document.getElementById('button2').value;
+			var finaldata="Rashmil:"+data+".........."+contactdata;
+
+			console.log(finaldata);
+			
+            var clone = original.cloneNode(true); // "deep" clone
+            clone.id = "duplicetor" + ++i;
+            clone.innerHTML=finaldata;
+            // there can only be one element with an ID
+           original.parentNode.appendChild(clone);
+
+			}
+		
+
+
+		}
+			
+			
+		
+		
+		
+	</script>
+		
+	
+
+	
+
+</body>
+</html>

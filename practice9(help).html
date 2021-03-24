@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>practice(chat)</title>
+	<title>practice9.html</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="depressorestyling.css">
+</head>
+<body style="background-image:url('background.png'); background-attachment: fixed; background-repeat:no-repeat;background-size:100% 100%;">
+	<nav class="navbar navbar-expand-xl bg-dark">
+		<div class="container">
+			<img src="Capture5.png" style="width:50px;height: 20px;">
+			<a href="#" class="navbar-brand text-white" style="margin-left:10px;" ><b><h3>DEPRESSOR</b></h3></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarid" style="background-color:white;"><span class="navbar-toggler-icon"><i class="fa fa-align-justify" style="margin-top:7px;"></i></span></button>
+			<div class="collapse navbar-collapse" id="navbarid">
+				<ul class="navbar-nav text-center ml-auto">
+					<li class="navbar-items"><a href="index.html" class="nav-link text-white btn btn-success"><b>PROFILE</b></a></li>
+					<li class="navbar-items"><a href="practice9(chat).html" class="nav-link text-white btn btn-success" style="margin-left:6px"><b>CHAT</b></a></li>
+					<li class="navbar-items"><a href="practice9(selfhealing).html" class="nav-link text-white btn btn-success" style="margin-left:6px"><b>SELF-HEALING</b></a></li>
+					<li class="navbar-items"><a href="practice9(reliever).html" class="nav-link text-white btn btn-danger" style="margin-left:6px"><b>RELIEVER</b></a></li>
+					<li class="navbar-items"><a href="practice9(contribution).html" class="nav-link text-white btn btn-success" style="margin-left:6px"><b>CONTRIBUTION</b></a></li>
+					<li class="navbar-items"><a href="practice9(story).html" class="nav-link text-white btn btn-success" style="margin-left:6px"><b>STORY</b></a></li>
+					<li class="navbar-items" style="margin-left: 20px;margin-right:-50px; margin-right: 10px;">
+						<div class="btn-group dropdown">
+							<button class=" btn text-white dropdown-toggle" data-toggle="dropdown" style="margin-left:6px;background-color: #e96868;"><b><i class="fa fa-bell"></i></b></button>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Ramesh:Are you ok??.<br><p style="font-size:10px;">3 seconds ago</p></a>
+							<a href="#" class="dropdown-item">Suresh:Dont give up buddy??<br><p style="font-size:10px;">5 minutes ago</a>
+								
+							</div>
+							
+						</div>
+					</li>
+						<li class="navbar-items" style="">
+						<div class="btn-group dropright">
+							<button class=" btn text-white dropdown-toggle" data-toggle="dropdown" style="background-color: #e96868;"><b><i class="fa fa-user"></i></b></button>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item disabled" style="color:black;">Ramesh333</a>
+								<a href="#" class="dropdown-item"><i class="fa fa-camera"></i>&nbspProfile</a>
+								<a href="#" class="dropdown-item"><i class="fa fa-th"></i>&nbspGallery</a>
+								<a href="#" class="dropdown-item"><i class="fa fa-cog"></i>&nbspSettings</a>
+								<a href="#" class="dropdown-item"><i class="fa fa-power-off"></i>&nbspLogout</a>
+							
+							</div>
+							
+						</div>
+					</li>
+
+					
+				</ul>
+				
+			</div>
+		</div>
+
+		
+	</nav>
+	<div class="container" style="margin-top:6px;">
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+				<h2 class="badge" style="background-color:#FFE77AFF;color:black;padding:10px;">Helpbar</h2>
+				
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4" >
+				<div class="progress" style=" height:30px; ">
+		                <div class="progress-bar" style="width:50%; background-color:#2C5F2DFF">50%
+			
+		                </div>
+		
+	            </div>
+				
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+				<a href="practice9(reliever).html"><button class="btn" style="background-color: #E7EBE0FF;">BACK</button></a>
+
+				
+			</div>
+			
+			
+			
+			
+		</div>
+		
+	</div>
+	<nav class="navbar navbar-expand-xl " style="width:100%;position: fixed; bottom:0;background:transparent;">
+		<div class="container">
+			
+			<input type="text" name="" id="mybar" style="width:60%" >
+			<button class="btn btn-warning" style="" onclick="mydisplaymessage()"><i class="fa fa-check"></i></button>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbaridtools" style="background-color:white;"><span class="navbar-toggler-icon"><i class="fa fa-rocket" style="margin-top:7px;"></i></span></button>
+			<div class="collapse navbar-collapse" id="">
+				<ul class="navbar-nav text-center ml-auto">
+					
+					<li class="navbar-items"><a href="practice8(chat).html" class="nav-link text-white " style="margin-left:6px">
+						<div class="btn-group dropup">
+			                       <button class="btn dropdown-toggle" data-toggle="dropdown" style="margin-left:10px;background-color:#354A21;color:white; border:0px;">Love</button>
+			                       <div class="dropdown-menu" style="width:500px;height:100px; overflow-y :scroll;">
+				
+				                        <button class="dropdown-item" id="depress1" value="We love you buddy." onclick="mywords(this.id)">We love you buddy.</button>
+            	                        <button class="dropdown-item" id="depress2" value="Never give up." onclick="mywords(this.id)">Never give up.</button>
+            	                        <button class="dropdown-item" id="depress3" value="I support you." onclick="mywords(this.id)">I support you.</button>
+            	                        <button class="dropdown-item" id="depress3" value="There are lot of people who needs you and your love." onclick="mywords(this.id)">There are lot of people who needs you and your love.</button>
+            	                        <button class="dropdown-item" id="depress3" value="Make yourself strong." onclick="mywords(this.id)">Make yourself strong.</button>
+            	
+			                      </div>
+			               </div>
+					</a></li>
+					<li class="navbar-items"><a href="practice8(selfhealing).html" class="nav-link text-white" style="margin-left:6px">
+						 <div class="btn-group dropup">
+			                     <button class="btn  dropdown-toggle " data-toggle="dropdown" style="margin-left:25px;background-color: #597D35;color:white; border:0px;">Pray</button>
+			                     <div class="dropdown-menu" id="scroll" style="width:500px;height:100px;overflow-y:scroll;">
+				
+            	                 <button class="dropdown-item" id="stress1" value="I pray to God to give you knowledge and happiness." onclick="mywords(this.id)">I pray to God to give you knowledge and happiness.</button>
+            	                 <button class="dropdown-item" id="stress2" value="I cannot decide anything. I am constantly worried.Please help me." onclick="mywords(this.id)">I cannot decide anything. I am constantly worried.Please help me.</button>
+            	                 <button class="dropdown-item" id="stress3" value="We pray that you will immediately get out of this problem." onclick="mywords(this.id)">We pray that you will immediately get out of this problem.</button>
+            	
+				
+			                     </div>
+							
+							
+						    </div>
+					</a></li>
+					<li class="navbar-items"><a href="practice8(reliever).html" class="nav-link text-white">
+						<div class="btn-group dropup">
+			                  <button class="btn dropdown-toggle"  data-toggle="dropdown"style="margin-left:10px;  background-color:#B2D3C2; color:white; border:0px;">Hug</button>
+			                   <div class="dropdown-menu" style="width:500px;height:100px;overflow-y:scroll;">
+				
+            	               <button class="dropdown-item" id="anxiety1" value="Can i get the feeling of hugging you." onclick="mywords(this.id)">Can i get the feeling of hugging you.</button>
+            	              <button class="dropdown-item" id="anxiety2" value="Do you want hug." onclick="mywords(this.id)">Do you want hug.</button>
+            	              <button class="dropdown-item" id="anxiety3" value="Hug from my side." onclick="mywords(this.id)">Hug from my side.</button>
+			                   </div>
+				
+			               </div>
+					</a></li>
+					<li class="navbar-items"><a href="practice8(contribution).html" class="nav-link text-white" >
+						<div class="btn-group dropup">
+			                     <button class="btn dropdown-toggle"  data-toggle="dropdown"style="margin-left:10px;background-color: #607D3B; color:white; border:0px;">Hand</button>
+			                    <div class="dropdown-menu" style="width:500px;height:100px;overflow-y:scroll;">
+				
+            	                 <button class="dropdown-item" id="tension1" value="Handshake." onclick="mywords(this.id)">Handshake.</button>
+            	                 <button class="dropdown-item" id="tension2" value="Touching your shoulder and saying." onclick="mywords(this.id)">Touching your shoulder and saying</button>
+            	                 <button class="dropdown-item" id="tension3" value="Double shoulder touch and saying" onclick="mywords(this.id)">Double shoulder touch and saying</button>
+			                   </div>
+				
+			                </div>
+					</a></li>
+					<li class="navbar-items"><a href="practice8(contribution).html" class="nav-link text-white" >
+						<div class="btn-group dropup">
+			                     <button class="btn dropdown-toggle"  data-toggle="dropdown"style="margin-left:10px;background-color: #32612D; color:white; border:0px;">Emojis</button>
+			                    <div class="dropdown-menu" style="width:500px;height:100px;overflow-y:scroll;">
+				
+            	                  <button class="dropdown-item" id="emoji1" value="&#9786;" onclick="myemoji(this.id)"><i class="fa fa-smile-o fa-3x"></i></button>
+            	                 <button class="dropdown-item" id="emoji2" value="&#9829;" onclick="myemoji(this.id)"><i class="fa fa-heart fa-3x"></i></button>
+            	                 <button class="dropdown-item" id="emoji3" value="&#9996;" onclick="myemoji(this.id)"><i class="fa fa-hand-peace-o fa-3x"></i></button>
+            	                 <button class="dropdown-item" id="emoji4" value="&#9757;" onclick="myemoji(this.id)"><i class="fa fa-hand-o-up fa-3x"></i></button>
+            	
+			                   </div>
+				
+			                </div>
+					</a></li>
+				</ul>
+				
+			</div>
+		</div>
+
+		
+	</nav>
+	<div class="collapse navbar-collapse" id="navbaridtools">
+				<ul class="navbar-nav text-center ml-auto">
+					
+					<li class="navbar-items">
+					
+			                       <button class="btn " data-target="#mymodaldepress" data-toggle="modal" style="margin-top:5px; background-color:#354A21;color:white; border:0px;">LOVE</button>
+			                       
+			               
+					</li>
+					<li class="navbar-items">
+						 
+			                     <button class="btn" data-target="#mymodalstress" data-toggle="modal" style="margin-top:5px;background-color: #597D35;color:white; border:0px;">PRAY</button>
+			                    
+							
+						    
+					</li>
+					<li class="navbar-items">
+						
+			                  <button class="btn "   data-target="#mymodalanxiety" data-toggle="modal" style="margin-top:5px; background-color:#B2D3C2; border:0px;">HUG</button>
+			                   
+			               
+					</li>
+					<li class="navbar-items">
+						
+			                     <button class="btn "data-target="#mymodaltension" data-toggle="modal" style="margin-top:5px;background-color: #607D3B; border:0px;">HAND</button>
+			                    
+				
+			                
+					</li>
+					<li class="navbar-items">
+						
+			                     <button class="btn " data-target="#mymodalsucidial" data-toggle="modal" style="margin-top:5px;background-color: #32612D;  border:0px;">EMOJI</button>
+			                    
+				
+			                
+					</li>
+					
+
+					
+				</ul>
+				
+			</div>
+	<div class="modal fade" id="mymodaldepress">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						
+					</div>
+					<div class="container">
+						<div class="list-group list-group-flush text-center">
+							<li class="list-group-item list-group-item-action"><button class="btn" id="depress1" value="We love you buddy." onclick="mywords(this.id)">We love you buddy.</button></li>
+							<li class="list-group-item list-group-item-action"><button class="btn" id="depress2" value="Never give up." onclick="mywords(this.id)">Never give up.</button></li>
+							<li class="list-group-item list-group-item-action"><button class="btn" id="depress3" value="There are lot of people who needs you and your love." onclick="mywords(this.id)">There are lot of people who needs you and your love.</button></li>
+							<li class="list-group-item list-group-item-action"><button class="btn" id="depress4" value="I support you." onclick="mywords(this.id)">I support you.</button></li>
+							<li class="list-group-item list-group-item-action"> <button class="btn" id="depress5" value="Make yourself strong" onclick="mywords(this.id)">Make yourself strong</button></li>
+							
+							
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="modal fade" id="mymodalstress">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						
+					</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="list-group list-group-flush text-center">
+							<li class="list-group-item list-group-item-action"><button class="btn" id="stress1" value="I pray to God to give you knowledge and happiness." onclick="mywords(this.id)">I pray to God to give you knowledge and happiness.</button></li>
+							<li class="list-group-item list-group-item-action"><button class="btn" id="stress2" value="We pray that you will immediately get out of this problem." onclick="mywords(this.id)">We pray that you will immediately get out of this problem.</button></li>
+							<li class="list-group-item list-group-item-action"> <button class="btn" id="stress3" value="I pray that everything is going to be ok." onclick="mywords(this.id)">I pray that everything is going to be ok.</button></li>
+							
+							
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="modal fade" id="mymodalanxiety">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						
+					</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="list-group list-group-flush text-center">
+							
+							<li class="list-group-item list-group-item-action"><button class="btn" id="anxiety1" value="Can i get the feeling of hugging you." onclick="mywords(this.id)">Can i get the feeling of hugging you.</button></li>
+							<li class="list-group-item list-group-item-action"><button class="btn" id="anxiety2" value="Do you want hug." onclick="mywords(this.id)">I cannot decide anything.<br>Do you want hug.</button></button></li>
+							<li class="list-group-item list-group-item-action"><button class="btn" id="anxiety3" value="Hug from my side." onclick="mywords(this.id)">Hug from my side.</button></li>
+							
+							
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="modal fade" id="mymodaltension">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						
+					</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="list-group list-group-flush text-center">
+							<li class="list-group-item list-group-item-action"><button class="btn" id="tension1" value="Handshake." onclick="mywords(this.id)">Handshake.</button></li>
+            	            <li class="list-group-item list-group-item-action"><button class="btn" id="tension2" value="Touching your shoulder and saying." onclick="mywords(this.id)">Touching your shoulder and saying.</button></li>
+            	            <li class="list-group-item list-group-item-action"><button class="btn" id="tension3" value="Double shoulder touch and saying" onclick="mywords(this.id)">Double shoulder touch and saying</button></li>
+            	
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="modal fade" id="mymodalsucidial">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+						
+					</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="list-group list-group-flush text-center">
+							<li class="list-group-item list-group-item-action"><button class="btn" id="suicidal1" value="&#9786;" onclick="mywords(this.id)"><i class="fa fa-smile-o 2x"></i></button></li>
+            	            <li class="list-group-item list-group-item-action"><button class="btn" id="suicidal2" value="&#9829;" onclick="mywords(this.id)"><i class="fa fa-heart fa-2x"></i></button></li>
+            	            <li class="list-group-item list-group-item-action"><button class="btn" id="suicidal3" value="&#9996;" onclick="mywords(this.id)"><i class="fa fa-hand-peace-o fa-2x"></i></button></li>
+            	            <li class="list-group-item list-group-item-action"><button class="btn" id="suicidal4" value="&#9757;" onclick="mywords(this.id)"><i class="fa fa-hand-o-up fa-2x"></i></button></li>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	<script type="text/javascript">
+
+		function mydisplaymessage() {
+
+			var data=document.getElementById('mybar').value;
+			if(data==""){
+
+				alert("Please enter the text!!!")
+			}
+
+			else if(data.length<=23){
+				 var btn = document.createElement("Button");
+    var t = document.createTextNode(data);
+
+    btn.setAttribute("style","color:blue;background-color:#DFEAE2; color:black; border:0px; border-radius:50px;padding:8px; float:right; overflow-x:hidden;");
+
+    btn.appendChild(t);
+    document.body.appendChild(btn);
+    linebreak = document.createElement("br");
+    document.body.appendChild(linebreak);
+  
+    var data=document.getElementById('mybar').value;
+    var btn = document.createElement("Button");
+    var t = document.createTextNode(data);
+
+    btn.setAttribute("style","color:blue;background-color:#4E9C81; color:white;float:left; border:0px;border-radius:50px;padding:8px; wipx;");
+
+    btn.appendChild(t);
+    document.body.appendChild(btn);
+    linebreak = document.createElement("br");
+    document.body.appendChild(linebreak);
+
+
+			}
+		else{
+			var lengthofdata=data.length;
+			var i=0
+
+			while(lengthofdata>0){
+				dataextra=data.slice(i,i+23);
+				i+=23;
+
+
+				 var btn = document.createElement("Button");
+                 var t = document.createTextNode(dataextra);
+
+                 btn.setAttribute("style","color:blue;background-color:#DFEAE2; border:0px; color:black; border-radius:50px;padding:8px;float:right; overflow-x:hidden;");
+
+                 btn.appendChild(t);
+                 document.body.appendChild(btn);
+
+    		     
+                 lengthofdata-=23;
+                 linebreak = document.createElement("br");
+                 document.body.appendChild(linebreak);
+                 linebreak = document.createElement("br");
+                 document.body.appendChild(linebreak);
+
+
+			}
+			 
+            linebreak = document.createElement("br");
+            document.body.appendChild(linebreak);
+
+
+
+    		var data=document.getElementById('mybar').value;
+            var btn = document.createElement("Button");
+            var t = document.createTextNode(data);
+
+            btn.setAttribute("style","color:blue;background-color:#4E9C81; border:0px;color:white; border-radius:50px;padding:8px;float:left; wipx;");
+
+            btn.appendChild(t);
+            document.body.appendChild(btn);
+            linebreak = document.createElement("br");
+            document.body.appendChild(linebreak);
+         
+		}
+   
+
+   
+
+}
+
+function mywords(id){
+
+	var gamma=document.getElementById(id).value;
+	console.log(gamma)
+
+	var btn = document.createElement("Button");
+    var t = document.createTextNode(gamma);
+
+    btn.setAttribute("style","color:blue;background-color:#DFEAE2; border:0px; color:black; border-radius:50px;padding:8px;float:right; ; overflow-x:hidden;");
+
+    btn.appendChild(t);
+    document.body.appendChild(btn);
+    linebreak = document.createElement("br");
+     document.body.appendChild(linebreak);
+    linebreak = document.createElement("br");
+     document.body.appendChild(linebreak);
+
+
+    		var data=document.getElementById('mybar').value;
+    var btn = document.createElement("Button");
+    var t = document.createTextNode(gamma);
+
+    btn.setAttribute("style","color:blue;background-color:#4E9C81; border:0px; float:left; color:white; border-radius:50px;padding:8px; wipx;");
+
+    btn.appendChild(t);
+    document.body.appendChild(btn);
+    linebreak = document.createElement("br");
+     document.body.appendChild(linebreak);
+     linebreak = document.createElement("br");
+     document.body.appendChild(linebreak);
+
+
+
+}
+
+function myemoji(id){
+
+	var gamma=document.getElementById(id).value;
+	console.log(gamma)
+
+	var btn = document.createElement("Button");
+    var t = document.createTextNode(gamma);
+
+    btn.setAttribute("style","color:blue;background-color:#DFEAE2; border:0px; color:black; font-size:30px;border-radius:50px;padding:8px; float:right; overflow-x:hidden;");
+
+    btn.appendChild(t);
+    document.body.appendChild(btn);
+    linebreak = document.createElement("br");
+    document.body.appendChild(linebreak);
+    linebreak = document.createElement("br");
+     document.body.appendChild(linebreak);
+
+    		var data=document.getElementById('mybar').value;
+    var btn = document.createElement("Button");
+    var t = document.createTextNode(gamma);
+
+    btn.setAttribute("style","color:blue;background-color:#4E9C81; border:0px; color:white; font-size:30px; border-radius:50px;padding:8px; float:left; wipx;");
+
+    btn.appendChild(t);
+    document.body.appendChild(btn);
+    linebreak = document.createElement("br");
+    document.body.appendChild(linebreak);
+    
+
+
+
+}
+
+
+	</script>
+
+
+</body>
+</html>
